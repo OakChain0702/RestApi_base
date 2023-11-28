@@ -42,5 +42,9 @@ public class ItemService {
 			}
 		}
 	}
+	
+	public void deleteItem(String itemId) {
+		allItems.removeIf(i -> i.getItemId().equals(itemId));
+	}
 
 }
