@@ -37,9 +37,8 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>com.udemy</groupId>
-			<artifactId>spring2item</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-cache</artifactId>
 		</dependency>
 	</dependencies>
 
